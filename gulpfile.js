@@ -33,7 +33,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('scripts', function() {
-  return gulp.src(['site/assets/scripts/jquery/jquery-'+ version +'.min.js',
+  return gulp.src(['dist/assets/jquery/jquery-'+ version +'.min.js',
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
       'templates/'+ template +'/scripts/*.js'
     ])

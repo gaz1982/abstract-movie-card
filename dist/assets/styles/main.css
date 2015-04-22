@@ -8284,3 +8284,154 @@ button.close {
 .fa-medium:before {
   content: "\f23a";
 }
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+.custom-hide {
+  display: none;
+}
+.card {
+  background-image: url(/dist/assets/img/film.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2c3e50;
+}
+.card-poster {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .card-poster {
+    float: left;
+    width: 25%;
+  }
+}
+.card-poster .poster {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 767px) {
+  .card-poster .poster {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .card-poster .poster .mob-title {
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+}
+.card-poster .current-rating {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  color: #fff;
+}
+.card-poster .current-rating p {
+  font-size: 18px;
+}
+.card-poster .current-rating p .fa {
+  color: #d35400;
+}
+.card-poster .current-rating p span {
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .card-poster .current-rating {
+    margin-bottom: 15px;
+  }
+}
+.card-description {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .card-description {
+    float: left;
+    width: 75%;
+  }
+}
+.card-description .well {
+  background-color: #ecf0f1;
+}
+.card-description .well h2 {
+  margin-top: 0;
+}
+@media (max-width: 767px) {
+  .card-description .well h2 {
+    display: none;
+  }
+}
+.card-description .well .card-mini-description {
+  padding: 10px 0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #bdc3c7;
+}
+@media (max-width: 767px) {
+  .card-description .well .card-mini-description {
+    margin-top: 0;
+  }
+}
+.card-description .well .card-mini-description p {
+  margin: 0;
+}
+@media (max-width: 440px) {
+  .card-description .well .card-mini-description p span {
+    float: none !important;
+    white-space: nowrap;
+  }
+}
+.card-description .well .cast h4 {
+  padding-left: 5px;
+}
+.card-description .well .cast .actor-list {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .card-description .well .cast .actor-list {
+    float: left;
+    width: 50%;
+  }
+}
+.card-description .well .cast .director-list {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .card-description .well .cast .director-list {
+    float: left;
+    width: 50%;
+  }
+}
+.starrr {
+  display: inline-block;
+  margin-right: 10px;
+}
+.starrr i {
+  font-size: 20px;
+  padding: 0 1px;
+  cursor: pointer;
+  color: #f39c12;
+}
