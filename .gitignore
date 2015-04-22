@@ -1,0 +1,15 @@
+/node_modules/.bin/
+/node_modules/browser-sync/
+/node_modules/del/
+/node_modules/gulp/
+/node_modules/gulp-autoprefixer/
+/node_modules/gulp-concat/
+/node_modules/gulp-ignore/
+/node_modules/gulp-jshint/
+/node_modules/gulp-less/
+/node_modules/gulp-minify-css/
+/node_modules/gulp-newer/
+/node_modules/gulp-plumber/
+/node_modules/gulp-rename/
+/node_modules/gulp-uglify/
+/node_modules/gulp-watch/
