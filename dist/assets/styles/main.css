@@ -8303,6 +8303,7 @@ body {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .card-poster {
@@ -8311,6 +8312,7 @@ body {
   }
 }
 .card-poster .poster {
+  text-align: center;
   position: relative;
   float: left;
   width: 100%;
@@ -8320,7 +8322,6 @@ body {
 }
 @media (max-width: 767px) {
   .card-poster .poster {
-    text-align: center;
     margin-bottom: 15px;
   }
   .card-poster .poster .mob-title {
@@ -8336,7 +8337,6 @@ body {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
   color: #fff;
 }
 .card-poster .current-rating p {
